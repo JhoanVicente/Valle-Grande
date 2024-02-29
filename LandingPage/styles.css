@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav {
+    float: right;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+/* Sección hero */
+.hero {
+    background-image: url('./img/principal.jpg'); /* Cambiar la ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 800px; /* Este valor parece demasiado grande */
+}
+
+.container section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #00558c;
+}
+
+.leer-mas {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #00558c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #00558c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Media queries para responsive design */
+@media screen and (max-width: 768px) {
+    /* Agrega tus ajustes de estilo para pantallas más pequeñas aquí */
+}
